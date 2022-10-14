@@ -1,0 +1,49 @@
+.bigDiv {
+    margin: auto;
+    width: 35%;
+    background-color: #80d4ff;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+.languages {
+    margin: auto;
+}
+
+.flag {
+    width:30px;
+    border:0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+button {
+    font-size: 2em;
+    border-radius: 3px;
+    border: 1px solid #adadad;
+}
+
+.DatesDiv {
+    border: 2px solid black;
+    background-color: #ffffb3;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.date {
+    text-align:center;
+}
+
+@media screen and (max-width: 1000px)  {
+    .bigDiv {
+        width: 100%;
+    }
+    .flag {
+        width: 75px;
+    }
+}

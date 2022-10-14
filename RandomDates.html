@@ -1,0 +1,31 @@
+<!--Not made by Roger-->
+<html>
+
+    <head>
+        <title>RDG (Random Date Guinart)</title>
+        <link href="css/randomdate.css" rel="stylesheet" type="text/css">
+        <script src="js/RandomDate.js"></script>
+    </head>
+
+    <body>
+        <div class="bigDiv">
+            <div class="languages">
+                <img src="img/ca.jpg" onclick="changeLanguage('ca')" class="flag" id='ca'/>
+                <img src="img/es.jpg" onclick="changeLanguage('es')" class="flag" id='es'/>
+                <img src="img/en.jpg" onclick="changeLanguage('en')" class="flag" id='en'/>
+            </div>
+
+            <div class="button">
+                <button id="butt" onclick="getRandomDates();">Genera 5 dates</button>
+            </div>
+
+            <div class="DatesDiv">
+                <h1 class="date" id="date1"></h1>
+                <h1 class="date" id="date2"></h1>
+                <h1 class="date" id="date3"></h1>
+                <h1 class="date" id="date4"></h1>
+                <h1 class="date" id="date5"></h1>
+            </div>
+        </div>
+    </body>
+</html>
